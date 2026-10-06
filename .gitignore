@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# NSL-KDD raw datasets
+KDDTrain+.txt
+KDDTest+.txt
+KDDTrain+.arff
+KDDTest+.arff
+
+# Processed datasets / serialized objects
+*.pkl
+*.pickle
+*.joblib
+
+# Local outputs
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
