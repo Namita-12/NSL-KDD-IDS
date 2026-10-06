@@ -1,0 +1,6 @@
+Model,CV Accuracy (%),CV Macro F1 (%),Test Accuracy (%),Test Macro F1 (%),Latency (ms/10k)
+Decision Tree - Entropy,99.8,90.79,77.56,56.14,2.428
+Decision Tree - Gini,99.78,90.57,75.86,55.46,2.983
+Balanced LinearSVC,94.69,72.05,73.19,51.76,8.919
+LinearSVC,96.57,59.18,71.67,47.03,9.43
+Gaussian Naive Bayes,41.11,30.78,33.23,24.89,48.162
